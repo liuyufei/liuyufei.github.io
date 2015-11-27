@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
+title:      "Hello Jekyll"
+subtitle:   " \"Hello World, Hello Jekyll Blog\""
+date:       2015-11-27 12:47:00
+author:     "Jason.lyf"
+header-img: "img/post-bg-yaki.jpg"
 tags:
-    - 生活
+    - Jekyll
 ---
 
 > “Yeah It's on. ”
