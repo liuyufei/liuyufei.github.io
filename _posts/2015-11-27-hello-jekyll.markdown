@@ -38,7 +38,7 @@ tags:
 
 搭建这个东西需要涉及到的东西有 **Ruby**，**Jekyll** 以及常用的 **Git**，我使用的是 Mac，系统版本是 **OS X EI Capitan 10.11**，系统默认自带2.0.0的 ruby 但是请**放弃使用**，建议使用 rvm 来管理 ruby 版本以及下载最新版的 ruby，保证安装过程正常。
 
-安装 Jekyll 只需要执行
+在本地安装 Jekyll 只需要执行
 
 ```
 gem install jekyll
@@ -71,7 +71,7 @@ curl -L get.rvm.io | bash -s stable
 source ~/.bashrc
 source ~/.bash_profile
 ```
-为了加快安装速度，可以修改 Ruby 的安装源为[淘宝镜像服务器](https://ruby.taobao.org/)，再执行上面的安装命令
+为了加快 Ruby 安装速度，可以修改 Ruby 的安装源为[淘宝镜像服务器](https://ruby.taobao.org/)
 
 ```
 sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db
