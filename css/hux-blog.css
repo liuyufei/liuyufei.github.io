@@ -852,6 +852,7 @@ body {
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+  box-shadow: 15px 15px 30px rgba(0,0,0,0.1);
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
