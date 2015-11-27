@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: liuyufei2012sh@gmail.com
 description: ""
 keyword: "刘宇飞, liuyufei, Jason, 移动安全, Android"
-url: "http://liuyufei.me"              # your host, for absolute URL
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
