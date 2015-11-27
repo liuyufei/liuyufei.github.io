@@ -1,7 +1,7 @@
 # Site settings
 title: Jason.lyf
 SEOTitle: 刘宇飞的博客 | Jason.lyf Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg/home-bg-yaki.jpg
 email: liuyufei2012sh@gmail.com
 description: ""
 keyword: "刘宇飞, liuyufei, Jason, 移动安全, Android"
@@ -12,11 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
-#github_username:    huxpro
-#twitter_username:  huxpro
-#facebook_username:  huxpro
+#weibo_username:     	huxpro
+#zhihu_username:     	huxpro
+github_username:    	liuyufei
+
 
 
 
@@ -43,9 +42,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-#duoshuo_username: huxblog
+duoshuo_username: liuyufei
 # Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -62,13 +61,13 @@ kramdown:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "希望生活总是那么美好"
-sidebar-avatar: /img/avatar-liu.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/others/avatar-liu.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 5              # A tag will be featured if the size of it is more than this condition value
 
 
 

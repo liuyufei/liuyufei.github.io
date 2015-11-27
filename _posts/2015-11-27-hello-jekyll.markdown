@@ -4,36 +4,40 @@ title:      "Hello Jekyll"
 subtitle:   " \"Hello World, Hello Jekyll Blog\""
 date:       2015-11-27 12:47:00
 author:     "Jason.lyf"
-header-img: "img/post-bg-yaki.jpg"
+header-img: "img/post-bg/post-bg-yaki.jpg"
 tags:
     - Jekyll
 ---
 
-> “Yeah It's on. ”
+> “终于终于，把这个搞起来了，经历了各种乱七八糟的问题”
 
 
-## 前言
+## 先说废话
 
-Hux 的 Blog 就这么开通了。
+个人博客就这么弄起来了，直接放在了 GitHub Pages 上，没有自定义域名，还偶尔访问不上 GitHub ，且走且看吧。
 
-[跳过废话，直接看技术实现 ](#build) 
+很早之前就开始留意搭建博客的事情了，最直接想到的就是放到现有的论坛上，但是一是感觉CSDN，ITEYE这些地方的网站太丑，实在不想往上面放，二是如果想对自己的页面进行定制化这些地方就比较局限。
 
+这里提供一些搭建博客的方式，感觉也都是不错的方式：
 
+* [WordPress](https://wordpress.org/) (这个不用多说)
+* [简书](http://www.jianshu.com/) (个人感觉也是个不错的选择，界面风格很赞)
+* 自己造轮子 ... (程序员的病) 
+* ...
 
-2015 年，Hux 总算有个地方可以好好写点东西了。
+作为程序员，个人博客这个东西肯定是要自己完全把控的，简单来说就是想要炫酷和装逼，自己不是专业前端大神，要想搞出高逼格的个人网站，就只能去网上找现成的东西来搭。
 
+搜了一番觉得最好的还是 GitHub 这程序员的天堂，GitHub 提供了 GitHub Pages 来作为项目或者个人主页，结合 Jekyll 的轻量级博客框架就能任意构建自己的博客，Jekyll 使用 MarkDown 这种优雅的语言来写博客，且 GitHub 还免费提供了 Host 主机，真是省了一大笔心，服务器也不用搭了，还有免费的空间，博客更新更是使用 Git 的管理方式，只需管理对应的仓库就可管理自己的博客，真的是太符合程序员的口味了。
 
-作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。
+但是一路上搭建这个东西也是遇到了很多坑，这里就记录下整个 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) + MacOSX 的搭建过程。
 
-在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！
-
-
-<p id = "build"></p>
 ---
 
-## 正文
+## 再讲东西
 
-接下来说说搭建这个博客的技术细节。  
+搭建这个东西需要涉及到的东西有 Ruby，Jekyll
+
+#### 先装Ruby  
 
 正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
 
