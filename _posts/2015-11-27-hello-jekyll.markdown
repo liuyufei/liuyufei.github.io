@@ -168,7 +168,7 @@ rvm use 2.2.1 --default
 
 于是找啊找，找到了 [Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) 以及 [Hux Blog](https://github.com/Huxpro/huxpro.github.io)，Hux 就是一个专业前端大神了，于是直接使用了他基于 Clean Blog 修改的主题，修改了配置和配图就直推送到 GitHub 上的 io 仓库了，然后就变成现在这个样子了，多亏了 Hux 的修改，这才搞的有模有样，膜拜 [@Hux](http://huangxuan.me/) 大神，他的博客同样也是放在了 GitHub Pages 上。
 
-同样找背景配图也是得亏了有一个拍照及其棒的小伙伴 [@yaki](http://weibo.com/p/1005052095446005) 我才可以找到这么好的素材，谢啦！
+同样找背景配图也是得亏了有一个拍照极其棒的小伙伴 [@yaki](http://weibo.com/p/1005052095446005) 我才可以找到这么好的素材，谢啦！
 
 到这里一个博客基本上也就搭出来了，来张预览
 

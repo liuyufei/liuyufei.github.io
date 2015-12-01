@@ -73,5 +73,8 @@ featured-condition-size: 5              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-
+	{
+        title: "国际顶尖学者",
+        href: "http://amazingnan.github.io/yuhongnan"
+    }
 ]
